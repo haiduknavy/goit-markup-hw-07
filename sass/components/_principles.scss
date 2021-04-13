@@ -1,0 +1,40 @@
+.principles {
+  padding-top: 94px;
+  padding-bottom: 94px;
+
+  &__item:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+.principles__container {
+  display: flex;
+}
+.principles__list {
+  display: flex;
+}
+.principles__wrap {
+  display: flex;
+  padding: 0;
+  margin-bottom: 30px;
+  width: 270px;
+  height: 120px;
+  align-items: center;
+  justify-content: center;
+  background-color: $section-color-light;
+  border-radius: 4px;
+}
+.principles__lable {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.principles__text {
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: $font-color-dark;
+  margin-bottom: 0;
+}
